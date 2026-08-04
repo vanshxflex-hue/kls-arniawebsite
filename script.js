@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Kasturi Lal & Sons Website Loaded");
 
     const button = document.querySelector(".btn");
 
@@ -8,4 +7,5 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.href = "https://wa.me/919018047777";
         });
     }
+
 });
