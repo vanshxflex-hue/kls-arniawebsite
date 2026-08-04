@@ -37,3 +37,34 @@ section {
     font-size: 16px;
     cursor: pointer;
 }
+.categories {
+    padding: 40px 20px;
+}
+
+.categories h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.box {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-8px);
+}
+
+.box h3 {
+    font-size: 22px;
+}
+
+.box p {
+    color: #555;
+    line-height: 1.5;
+}
